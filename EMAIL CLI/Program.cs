@@ -10,8 +10,13 @@ namespace GLPCLI
         {
             Console.WriteLine(DateTime.Today.ToString("D"));
 
+            //enter your email
             string senderEmail = "**********";
+
+            // find ur app pass
             string appPassword = "**********";
+
+            //option to user env var 
             Environment.GetEnvironmentVariable("**********");
 
             var recipients = new List<string>
